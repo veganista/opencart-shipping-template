@@ -1,4 +1,4 @@
-opencart-shipping-template
-==========================
+Opencart Shipping Module Template
+=================================
 
-A template for an OpenCart shipping module
+Quick start for an Opencart shipping module based on Weight based shipping
