@@ -40,9 +40,6 @@ class ModelShippingCustom extends Model {
 
                 $title = $this->config->get('custom_' . $result['geo_zone_id'] . '_name') ? $name = $this->config->get('custom_' . $result['geo_zone_id'] . '_name') : $result['name'];
 
-                // Add the weight if needed
-                // $title .= '  (' . $this->language->get('text_weight') . ' ' . $this->weight->format($custom, $this->config->get('config_custom_class_id')) . ')';
-
                 if ((string)$cost != '') {
                     $quote_data['custom_' . $result['geo_zone_id']] = array(
                         'code'         => 'custom.custom_' . $result['geo_zone_id'],
